@@ -51,3 +51,14 @@ CAD files are available at [CAD](https://cad.onshape.com/documents/8e68ca6e98fe2
 
 ---
 </div>
+
+
+## BOM
+
+
+| Name             | Purpose           | Cost (USD) | Qty | Total (USD) | Link | Distributor  |
+|-----------------|-----------------|------------|-----|-------------|------|-------------|
+| Rotatory Encoders | Rotatory Encoders | $0.00      | 2   | $0.00       | -    | Self sourced |
+| RP2040 Zero      | MCU               | $0.00      | 1   | $0.00       | -    | SelfSourced |
+| Keys and Diodes  | Diodes and keys   | $11.00     | 1   | $11.00      | -    | Stackskb    |
+| PCB              | PCB               | $13.00     | 1   | $13.00      | -    | JLC         |
