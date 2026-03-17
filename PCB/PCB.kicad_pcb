@@ -130,7 +130,7 @@
 		(property "Reference" "SW17"
 			(at 2.8 -4.7 0)
 			(layer "F.SilkS")
-			(uuid "b713e344-4e3f-4579-99a5-6939ead0a7da")
+			(uuid "230f28a6-7286-469d-b42f-9c0e1f3d53fb")
 			(effects
 				(font
 					(size 1 1)
@@ -141,7 +141,7 @@
 		(property "Value" "RotaryEncoder_Switch"
 			(at 7.5 10.4 0)
 			(layer "F.Fab")
-			(uuid "43a1d5fc-e06e-4ce7-9bfb-143c47c436e1")
+			(uuid "f5e61f47-15f9-4d35-ac6c-cb3bc3f0b50c")
 			(effects
 				(font
 					(size 1 1)
@@ -154,7 +154,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "19028e2e-43e1-487e-a56c-859be4a9d604")
+			(uuid "25aab0fb-1ea4-4247-87e0-9c270baeaf15")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -167,7 +167,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f6fbefdf-2224-4573-b38a-488ae44bc416")
+			(uuid "e9490492-6817-4b21-a8b0-c078084f80da")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8129,7 +8129,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "edff93af-389f-4175-b2c6-cc650bcb5293")
+			(uuid "1f7978ae-cd8e-4db1-a327-c09214651dc8")
 			(effects
 				(font
 					(size 1 1)
@@ -8141,7 +8141,7 @@
 			(at 10.16 -11.827 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "24ae87d8-f52d-4cba-9a3f-0138cf0d74b4")
+			(uuid "2346d03a-f709-400e-adf7-214081128417")
 			(effects
 				(font
 					(size 1 1)
@@ -8153,7 +8153,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6d4a3384-1c33-4f64-a954-5b5282896908")
+			(uuid "6dce92d6-0c7d-49ba-a033-29ac426e6440")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8165,7 +8165,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "16c1e8c0-3de4-4014-9d50-e4e71a433eb7")
+			(uuid "ddad40a5-2655-4db5-a56c-ac0159050a0c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8360,7 +8360,7 @@
 			(net 36 "+5V")
 			(pinfunction "5V")
 			(pintype "power_in")
-			(uuid "5d1b484c-b870-49cc-b029-d3a40039c2c2")
+			(uuid "84840c3a-184d-471f-9f81-cf9496d8704d")
 		)
 		(pad "2" smd rect
 			(at 1.64 -20.447)
@@ -8380,7 +8380,7 @@
 			(net 27 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "dd2acf6a-ac17-4a5a-9803-fd2853ac3ff4")
+			(uuid "c4637db1-f94d-42cb-bd2e-4075af3c2950")
 		)
 		(pad "3" smd rect
 			(at 1.64 -17.907)
@@ -8400,7 +8400,7 @@
 			(net 33 "+3V3")
 			(pinfunction "3V3")
 			(pintype "power_in")
-			(uuid "28c7bd18-aa7a-422f-b8e0-9d70ff2432d4")
+			(uuid "b70426ca-cbf2-4669-9f11-5147cce4877b")
 		)
 		(pad "4" smd rect
 			(at 1.64 -15.367)
@@ -8420,7 +8420,7 @@
 			(net 1 "ROW0")
 			(pinfunction "GP29")
 			(pintype "bidirectional")
-			(uuid "e4e830b8-3124-4663-b8b1-d26424e77c91")
+			(uuid "5f4343cd-2b10-4a64-b395-ff89ef9390bb")
 		)
 		(pad "5" smd rect
 			(at 1.64 -12.827)
@@ -8440,7 +8440,7 @@
 			(net 7 "ROW1")
 			(pinfunction "GP28")
 			(pintype "bidirectional")
-			(uuid "96d0792b-cfb1-4365-a985-ff636bfbd03e")
+			(uuid "5f175539-2136-4549-9ca9-6313e1053dac")
 		)
 		(pad "6" smd rect
 			(at 1.69 -10.287)
@@ -8460,7 +8460,7 @@
 			(net 11 "ROW2")
 			(pinfunction "GP27")
 			(pintype "bidirectional")
-			(uuid "7d4110ab-5717-46eb-b74d-9a75e2adf388")
+			(uuid "f648d7a5-799d-42ed-82f4-48086ae39393")
 		)
 		(pad "7" smd rect
 			(at 1.69 -7.747)
@@ -8480,7 +8480,7 @@
 			(net 14 "ROW3")
 			(pinfunction "GP26")
 			(pintype "bidirectional")
-			(uuid "6a2ad73c-92b7-4008-b750-fb79f5d35b27")
+			(uuid "f8dcc623-12ad-4284-abbc-a0ce7beec72d")
 		)
 		(pad "8" smd rect
 			(at 1.69 -5.207)
@@ -8500,7 +8500,7 @@
 			(net 23 "COL0")
 			(pinfunction "GP15")
 			(pintype "bidirectional")
-			(uuid "7c5cf084-a6f9-449b-9d2f-f946208c8b76")
+			(uuid "e8cd28b1-8a64-470a-b88b-bdb17d2eff9c")
 		)
 		(pad "9" smd rect
 			(at 1.69 -2.667)
@@ -8520,7 +8520,7 @@
 			(net 24 "COL1")
 			(pinfunction "GP14")
 			(pintype "bidirectional")
-			(uuid "94364630-7b9e-4245-ad67-45d5b52ae8ac")
+			(uuid "76c972c5-3bed-4cc6-a116-a034416c1353")
 		)
 		(pad "10" thru_hole circle
 			(at 17.78 -22.987)
@@ -8540,7 +8540,7 @@
 			(net 41 "unconnected-(U1-GP0-Pad10)")
 			(pinfunction "GP0")
 			(pintype "bidirectional")
-			(uuid "a8afc72d-7556-4051-ba8c-3d5d85118ebd")
+			(uuid "bcc09e5c-2dd6-4abb-b6a2-e5b1f645cd07")
 		)
 		(pad "11" thru_hole circle
 			(at 17.78 -20.447)
@@ -8560,7 +8560,7 @@
 			(net 34 "unconnected-(U1-GP1-Pad11)")
 			(pinfunction "GP1")
 			(pintype "bidirectional")
-			(uuid "179f5582-b424-403c-a055-7ebe555ea767")
+			(uuid "8bf8a3ba-e7bc-49be-9e55-6955fdb704c1")
 		)
 		(pad "12" thru_hole circle
 			(at 17.78 -17.907)
@@ -8580,7 +8580,7 @@
 			(net 38 "unconnected-(U1-GP2-Pad12)")
 			(pinfunction "GP2")
 			(pintype "bidirectional")
-			(uuid "46349a12-c432-42ad-8f64-5c957954cc6d")
+			(uuid "cf94325f-c696-4ce2-945b-08e5a13520db")
 		)
 		(pad "13" thru_hole circle
 			(at 17.78 -15.367)
@@ -8600,7 +8600,7 @@
 			(net 35 "unconnected-(U1-GP3-Pad13)")
 			(pinfunction "GP3")
 			(pintype "bidirectional")
-			(uuid "2488e43f-cc0f-404b-859d-c12ee65424d8")
+			(uuid "a29b236f-d3e6-45e0-9307-9f719fb21e96")
 		)
 		(pad "14" thru_hole circle
 			(at 17.78 -12.827)
@@ -8620,7 +8620,7 @@
 			(net 32 "unconnected-(U1-GP4-Pad14)")
 			(pinfunction "GP4")
 			(pintype "bidirectional")
-			(uuid "04f7e8ae-d031-4109-8950-71165d512715")
+			(uuid "c0ff40dc-b039-43df-acc4-355c1f1f0897")
 		)
 		(pad "15" thru_hole circle
 			(at 17.78 -10.287)
@@ -8640,7 +8640,7 @@
 			(net 40 "unconnected-(U1-GP5-Pad15)")
 			(pinfunction "GP5")
 			(pintype "bidirectional")
-			(uuid "d62419dd-9aab-4887-b083-9805c7ab8e94")
+			(uuid "987fbfc8-e476-4f12-a19e-a6f4e1538105")
 		)
 		(pad "16" thru_hole circle
 			(at 17.78 -7.747)
@@ -8660,7 +8660,7 @@
 			(net 37 "unconnected-(U1-GP6-Pad16)")
 			(pinfunction "GP6")
 			(pintype "bidirectional")
-			(uuid "525e6cd9-33fe-460f-b520-dbef7d3b68ed")
+			(uuid "1a9b77b1-4406-4d73-bc90-3793b820fc1c")
 		)
 		(pad "17" thru_hole circle
 			(at 17.78 -5.207)
@@ -8680,7 +8680,7 @@
 			(net 30 "ROT2A")
 			(pinfunction "GP7")
 			(pintype "bidirectional")
-			(uuid "9ba32404-4db1-4e62-a94b-6376f17a6c2b")
+			(uuid "2060e545-5623-4628-854a-407f1823f09a")
 		)
 		(pad "18" thru_hole circle
 			(at 17.78 -2.667)
@@ -8700,7 +8700,7 @@
 			(net 31 "ROT2B")
 			(pinfunction "GP8")
 			(pintype "bidirectional")
-			(uuid "d973c15f-2ee6-4b11-9639-c323fd0286b2")
+			(uuid "61a9d080-d977-487d-a9ee-70a7029a0ce8")
 		)
 		(pad "19" thru_hole circle
 			(at 5.08 -2.667)
@@ -8720,7 +8720,7 @@
 			(net 25 "COL2")
 			(pinfunction "GP13")
 			(pintype "bidirectional")
-			(uuid "6bc0a048-588e-4a10-8a7b-c9dc8936faa2")
+			(uuid "d73b1321-6965-4b3c-80d2-9613aa0cda37")
 		)
 		(pad "20" thru_hole circle
 			(at 7.62 -2.667)
@@ -8740,7 +8740,7 @@
 			(net 26 "COL3")
 			(pinfunction "GP12")
 			(pintype "bidirectional")
-			(uuid "e98925a7-a40e-45b1-951b-98a531eeef11")
+			(uuid "3f8c68cc-ed2b-4b2e-b38c-10432c5a14dd")
 		)
 		(pad "21" thru_hole circle
 			(at 10.16 -2.667)
@@ -8760,7 +8760,7 @@
 			(net 28 "ROT1A")
 			(pinfunction "GP11")
 			(pintype "bidirectional")
-			(uuid "52e56552-6492-4659-81fc-1d9723a138f3")
+			(uuid "1ea4c81b-797f-44ed-a1bd-0f7f66f874cf")
 		)
 		(pad "22" thru_hole circle
 			(at 12.7 -2.667)
@@ -8780,7 +8780,7 @@
 			(net 29 "ROT1B")
 			(pinfunction "GP10")
 			(pintype "bidirectional")
-			(uuid "af31cc66-3ad5-4203-a203-892631e1b0fa")
+			(uuid "554b35fd-b06f-4923-9836-cd391905075a")
 		)
 		(pad "23" thru_hole circle
 			(at 15.24 -2.667)
@@ -8800,7 +8800,7 @@
 			(net 39 "unconnected-(U1-GP9-Pad23)")
 			(pinfunction "GP9")
 			(pintype "bidirectional+no_connect")
-			(uuid "4ac2a1e2-5cae-49c2-8a07-9a17527e9f17")
+			(uuid "51d509e9-9611-4ac2-8fef-7205e650d557")
 		)
 		(embedded_fonts no)
 	)
@@ -9407,7 +9407,7 @@
 		(property "Reference" "SW18"
 			(at 2.8 -4.7 0)
 			(layer "F.SilkS")
-			(uuid "41ba1893-e05c-4d25-98d9-004c2002a0a6")
+			(uuid "5ab96a8b-69c1-4888-8208-b443811b683e")
 			(effects
 				(font
 					(size 1 1)
@@ -9418,7 +9418,7 @@
 		(property "Value" "RotaryEncoder_Switch"
 			(at 7.35625 10.3875 0)
 			(layer "F.Fab")
-			(uuid "b21393ac-b191-41b4-ad87-d8818a60bf9b")
+			(uuid "ef2c7451-808e-465e-b055-a5e3fc667681")
 			(effects
 				(font
 					(size 1 1)
@@ -9431,7 +9431,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "20ad829b-3e70-4ce2-8cd1-ecd51862e4d1")
+			(uuid "25f01342-bde8-4464-82cf-3b5fcd1ff3f2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9444,7 +9444,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "00ca4c7e-0a81-4bc1-a090-ff4142f77b81")
+			(uuid "cf2789db-f594-4fc0-8b57-1e089e197cb4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12106,7 +12106,7 @@
 		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "5V5"
-			(at 0 2.898 0)
+			(at 3.725 -0.0125 0)
 			(layer "B.SilkS")
 			(uuid "1404373d-9ec6-4401-a7cb-d81143b36b78")
 			(effects
@@ -12266,7 +12266,7 @@
 		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "GND"
-			(at 0 2.898 0)
+			(at 3.725 -0.0125 0)
 			(layer "B.SilkS")
 			(uuid "8340220c-6582-4ae5-9940-774cd742dec0")
 			(effects
@@ -12426,7 +12426,7 @@
 		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "3V3"
-			(at 0 2.898 0)
+			(at 3.725 -0.0125 0)
 			(layer "B.SilkS")
 			(uuid "84a9026f-2584-4efd-83d5-7313022a9e84")
 			(effects
