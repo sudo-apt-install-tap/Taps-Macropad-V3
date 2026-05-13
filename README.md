@@ -69,6 +69,9 @@ CAD files are available at [CAD](https://cad.onshape.com/documents/8e68ca6e98fe2
 ---
 </div>
 
+## Demo Video Hosted On YouTube
+
+[Demo #003 V3](https://youtu.be/LXwYWxPGB4U)
 
 ## BOM
 
