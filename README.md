@@ -9,7 +9,7 @@
   </b> 
 </h1>
 
-<h3> <b> A 16 Key + 2 Rotatory Encoder Macropad! </b> </h1>
+<h3> <b> A 16 Key + 2 Rotatory Encoder Macropad! </b> </h3>
 
 </div>
 
@@ -48,6 +48,23 @@ CAD files are available at [CAD](https://cad.onshape.com/documents/8e68ca6e98fe2
 
 <img width="685" height="535" alt="pcb 3d" src="https://github.com/user-attachments/assets/46c01a1b-5d24-43d3-a494-1dfddf60c8fb" />
 <br> 3D Viewer
+
+---
+
+<h2>Build Images:</h2>
+
+<img src="https://stasis.hackclub-assets.com/images/1778685138080-3ndm7t.png" />
+<br> Full Assembly
+
+---
+
+<img src="https://stasis.hackclub-assets.com/images/1778684706113-3cbhtc.jpeg" />
+<br> Back Side Of PCB
+
+---
+
+<img src="https://stasis.hackclub-assets.com/images/1778684837099-0xnr2l.jpeg" />
+<br> Bodged Art Of Hardware
 
 ---
 </div>
