@@ -1,38 +1,67 @@
 import board
+
 from kmk.kmk_keyboard import KMKKeyboard
+from kmk.scanners import DiodeOrientation
 from kmk.keys import KC
-from kmk.modules.layers import Layers
-from kmk.modules.rotary_encoders import RotaryEncoder
+from kmk.modules.encoder import EncoderHandler
+from kmk.extensions.media_keys import MediaKeys
 
 keyboard = KMKKeyboard()
 
-keyboard.row_pins = (board.GP0, board.GP1, board.GP2, board.GP3)
-keyboard.col_pins = (board.GP4, board.GP5, board.GP6, board.GP7)
+# MATRIX
+keyboard.col_pins = (
+    board.GP29,
+    board.GP28,
+    board.GP27,
+    board.GP26,  
+)
 
-layers_ext = Layers()
-keyboard.modules.append(layers_ext)
+keyboard.row_pins = (
+    board.GP15,
+    board.GP14,
+    board.GP13,
+    board.GP12,
+)
 
-rotary = RotaryEncoder()
-keyboard.modules.append(rotary)
+keyboard.diode_orientation = DiodeOrientation.COL2ROW
 
-rotary.pins = [
-    (board.GP12, board.GP13, board.GP14),
-    (board.GP15, board.GP16, board.GP17)
-]
+# MEDIA KEYS
+media = MediaKeys()
+keyboard.extensions.append(media)
 
-keyboard.keymap = [
+# ENCODERS
+encoder_handler = EncoderHandler()
+
+encoder_handler.pins = (
+    (board.GP10, board.GP11, None, False),  # Encoder 1
+    (board.GP7, board.GP8, None, False),   # Encoder 2
+)
+
+encoder_handler.map = [
     [
-        KC.A, KC.B, KC.C, KC.D,
-        KC.E, KC.F, KC.G, KC.H,
-        KC.I, KC.J, KC.K, KC.L,
-        KC.M, KC.N, KC.O, KC.P
+        (
+            KC.AUDIO_VOL_DOWN,
+            KC.AUDIO_VOL_UP,
+        ),
+
+        (
+            KC.LSFT(KC.LALT(KC.TAB)),
+            KC.LALT(KC.TAB),
+        ),
     ]
 ]
 
-rotary.keycode_map = [
-    [KC.VOLU, KC.VOLD, KC.MUTE],
-    [KC.PGUP, KC.PGDN, KC.ENTER]
+keyboard.modules.append(encoder_handler)
+
+# KEYMAP
+keyboard.keymap = [
+    [
+        KC.ESC,   KC.Q,     KC.W,     KC.E,
+        KC.A,     KC.S,     KC.D,     KC.F,
+        KC.Z,     KC.X,     KC.C,     KC.V,
+        KC.TAB,   KC.SPC,   KC.BSPC,  KC.ENT,
+    ]
 ]
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     keyboard.go()
